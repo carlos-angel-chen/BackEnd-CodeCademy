@@ -37,6 +37,9 @@ class Field {
                         this.updateField();
                     }
                 }
+                else{
+                    currentlyPlaying = false;
+                }
                 break;
             case 'S':
                 if(this.checkInput()){
@@ -47,6 +50,9 @@ class Field {
                     else {
                         this.updateField();
                     }
+                }
+                else{
+                    currentlyPlaying = false;
                 }
                 break;
             case 'A':
@@ -59,6 +65,9 @@ class Field {
                         this.updateField();
                     }
                 }
+                else{
+                    currentlyPlaying = false;
+                }
                 break;
             case 'D':
                 if(this.checkInput()){
@@ -69,6 +78,9 @@ class Field {
                     else {
                         this.updateField();
                     }
+                }
+                else{
+                    currentlyPlaying = false;
                 }
                 break;
             default:
